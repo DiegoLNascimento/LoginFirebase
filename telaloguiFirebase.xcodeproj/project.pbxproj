@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06C48560D154E50FBD0BFA82 /* Pods_telaloguiFirebase_telaloguiFirebaseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828771CBD406BC3A332770A6 /* Pods_telaloguiFirebase_telaloguiFirebaseUITests.framework */; };
+		8F059F284B196697B3157670 /* Pods_telaloguiFirebaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0CE033998AFF94B373578B9 /* Pods_telaloguiFirebaseTests.framework */; };
+		DEA4801A5BD2FFB4B18DDB43 /* Pods_telaloguiFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAEB5DD953243035AB637AA3 /* Pods_telaloguiFirebase.framework */; };
+		F15A09D028C2DF4A0071EA2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15A09CF28C2DF4A0071EA2B /* AppDelegate.swift */; };
+		F15A09D228C2DF4A0071EA2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15A09D128C2DF4A0071EA2B /* SceneDelegate.swift */; };
+		F15A09D428C2DF4A0071EA2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15A09D328C2DF4A0071EA2B /* ViewController.swift */; };
+		F15A09D928C2DF4B0071EA2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F15A09D828C2DF4B0071EA2B /* Assets.xcassets */; };
+		F15A09DC28C2DF4B0071EA2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F15A09DA28C2DF4B0071EA2B /* LaunchScreen.storyboard */; };
+		F15A09E728C2DF4B0071EA2B /* telaloguiFirebaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15A09E628C2DF4B0071EA2B /* telaloguiFirebaseTests.swift */; };
+		F15A09F128C2DF4B0071EA2B /* telaloguiFirebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15A09F028C2DF4B0071EA2B /* telaloguiFirebaseUITests.swift */; };
+		F15A09F328C2DF4B0071EA2B /* telaloguiFirebaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15A09F228C2DF4B0071EA2B /* telaloguiFirebaseUITestsLaunchTests.swift */; };
+		F1923DD428C4339200106B8A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1923DD328C4339200106B8A /* GoogleService-Info.plist */; };
+		F1923DD628C4380400106B8A /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1923DD528C4380400106B8A /* CadastroViewController.swift */; };
+		F1AE555E28C6C68500E16952 /* Tela2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AE555D28C6C68500E16952 /* Tela2ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F15A09E328C2DF4B0071EA2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F15A09C428C2DF4A0071EA2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F15A09CB28C2DF4A0071EA2B;
+			remoteInfo = telaloguiFirebase;
+		};
+		F15A09ED28C2DF4B0071EA2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F15A09C428C2DF4A0071EA2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F15A09CB28C2DF4A0071EA2B;
+			remoteInfo = telaloguiFirebase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FBD2832009D396691DF1AA7 /* Pods-telaloguiFirebase-telaloguiFirebaseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-telaloguiFirebase-telaloguiFirebaseUITests.debug.xcconfig"; path = "Target Support Files/Pods-telaloguiFirebase-telaloguiFirebaseUITests/Pods-telaloguiFirebase-telaloguiFirebaseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C01AF043C8249D1F456FE8F /* Pods-telaloguiFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-telaloguiFirebase.debug.xcconfig"; path = "Target Support Files/Pods-telaloguiFirebase/Pods-telaloguiFirebase.debug.xcconfig"; sourceTree = "<group>"; };
+		4F8234AE65DDDD2FF0B3E93E /* Pods-telaloguiFirebaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-telaloguiFirebaseTests.release.xcconfig"; path = "Target Support Files/Pods-telaloguiFirebaseTests/Pods-telaloguiFirebaseTests.release.xcconfig"; sourceTree = "<group>"; };
+		5DB7F4D12A432B5DABF12C85 /* Pods-telaloguiFirebase-telaloguiFirebaseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-telaloguiFirebase-telaloguiFirebaseUITests.release.xcconfig"; path = "Target Support Files/Pods-telaloguiFirebase-telaloguiFirebaseUITests/Pods-telaloguiFirebase-telaloguiFirebaseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		828771CBD406BC3A332770A6 /* Pods_telaloguiFirebase_telaloguiFirebaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_telaloguiFirebase_telaloguiFirebaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9EBFF92E99A28E70D127456 /* Pods-telaloguiFirebaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-telaloguiFirebaseTests.debug.xcconfig"; path = "Target Support Files/Pods-telaloguiFirebaseTests/Pods-telaloguiFirebaseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE93314F7C509C942A085CF5 /* Pods-telaloguiFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-telaloguiFirebase.release.xcconfig"; path = "Target Support Files/Pods-telaloguiFirebase/Pods-telaloguiFirebase.release.xcconfig"; sourceTree = "<group>"; };
+		BAEB5DD953243035AB637AA3 /* Pods_telaloguiFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_telaloguiFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0CE033998AFF94B373578B9 /* Pods_telaloguiFirebaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_telaloguiFirebaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15A09CC28C2DF4A0071EA2B /* telaloguiFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = telaloguiFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15A09CF28C2DF4A0071EA2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F15A09D128C2DF4A0071EA2B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F15A09D328C2DF4A0071EA2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F15A09D828C2DF4B0071EA2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F15A09DB28C2DF4B0071EA2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F15A09DD28C2DF4B0071EA2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F15A09E228C2DF4B0071EA2B /* telaloguiFirebaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = telaloguiFirebaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15A09E628C2DF4B0071EA2B /* telaloguiFirebaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = telaloguiFirebaseTests.swift; sourceTree = "<group>"; };
+		F15A09EC28C2DF4B0071EA2B /* telaloguiFirebaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = telaloguiFirebaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15A09F028C2DF4B0071EA2B /* telaloguiFirebaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = telaloguiFirebaseUITests.swift; sourceTree = "<group>"; };
+		F15A09F228C2DF4B0071EA2B /* telaloguiFirebaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = telaloguiFirebaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F1923DD328C4339200106B8A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F1923DD528C4380400106B8A /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
+		F1AE555D28C6C68500E16952 /* Tela2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela2ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F15A09C928C2DF4A0071EA2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA4801A5BD2FFB4B18DDB43 /* Pods_telaloguiFirebase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15A09DF28C2DF4B0071EA2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F059F284B196697B3157670 /* Pods_telaloguiFirebaseTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15A09E928C2DF4B0071EA2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06C48560D154E50FBD0BFA82 /* Pods_telaloguiFirebase_telaloguiFirebaseUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C493FC17D8838E3AEBF5F10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C01AF043C8249D1F456FE8F /* Pods-telaloguiFirebase.debug.xcconfig */,
+				AE93314F7C509C942A085CF5 /* Pods-telaloguiFirebase.release.xcconfig */,
+				0FBD2832009D396691DF1AA7 /* Pods-telaloguiFirebase-telaloguiFirebaseUITests.debug.xcconfig */,
+				5DB7F4D12A432B5DABF12C85 /* Pods-telaloguiFirebase-telaloguiFirebaseUITests.release.xcconfig */,
+				A9EBFF92E99A28E70D127456 /* Pods-telaloguiFirebaseTests.debug.xcconfig */,
+				4F8234AE65DDDD2FF0B3E93E /* Pods-telaloguiFirebaseTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EECB33D0C41BEB38CBCDA8A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAEB5DD953243035AB637AA3 /* Pods_telaloguiFirebase.framework */,
+				828771CBD406BC3A332770A6 /* Pods_telaloguiFirebase_telaloguiFirebaseUITests.framework */,
+				E0CE033998AFF94B373578B9 /* Pods_telaloguiFirebaseTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F15A09C328C2DF4A0071EA2B = {
+			isa = PBXGroup;
+			children = (
+				F15A09CE28C2DF4A0071EA2B /* telaloguiFirebase */,
+				F15A09E528C2DF4B0071EA2B /* telaloguiFirebaseTests */,
+				F15A09EF28C2DF4B0071EA2B /* telaloguiFirebaseUITests */,
+				F15A09CD28C2DF4A0071EA2B /* Products */,
+				1C493FC17D8838E3AEBF5F10 /* Pods */,
+				EECB33D0C41BEB38CBCDA8A0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F15A09CD28C2DF4A0071EA2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F15A09CC28C2DF4A0071EA2B /* telaloguiFirebase.app */,
+				F15A09E228C2DF4B0071EA2B /* telaloguiFirebaseTests.xctest */,
+				F15A09EC28C2DF4B0071EA2B /* telaloguiFirebaseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F15A09CE28C2DF4A0071EA2B /* telaloguiFirebase */ = {
+			isa = PBXGroup;
+			children = (
+				F15A09CF28C2DF4A0071EA2B /* AppDelegate.swift */,
+				F15A09D128C2DF4A0071EA2B /* SceneDelegate.swift */,
+				F15A09D328C2DF4A0071EA2B /* ViewController.swift */,
+				F1923DD528C4380400106B8A /* CadastroViewController.swift */,
+				F1AE555D28C6C68500E16952 /* Tela2ViewController.swift */,
+				F15A09D828C2DF4B0071EA2B /* Assets.xcassets */,
+				F15A09DA28C2DF4B0071EA2B /* LaunchScreen.storyboard */,
+				F1923DD328C4339200106B8A /* GoogleService-Info.plist */,
+				F15A09DD28C2DF4B0071EA2B /* Info.plist */,
+			);
+			path = telaloguiFirebase;
+			sourceTree = "<group>";
+		};
+		F15A09E528C2DF4B0071EA2B /* telaloguiFirebaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				F15A09E628C2DF4B0071EA2B /* telaloguiFirebaseTests.swift */,
+			);
+			path = telaloguiFirebaseTests;
+			sourceTree = "<group>";
+		};
+		F15A09EF28C2DF4B0071EA2B /* telaloguiFirebaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F15A09F028C2DF4B0071EA2B /* telaloguiFirebaseUITests.swift */,
+				F15A09F228C2DF4B0071EA2B /* telaloguiFirebaseUITestsLaunchTests.swift */,
+			);
+			path = telaloguiFirebaseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F15A09CB28C2DF4A0071EA2B /* telaloguiFirebase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F15A09F628C2DF4B0071EA2B /* Build configuration list for PBXNativeTarget "telaloguiFirebase" */;
+			buildPhases = (
+				63C0426ED43BE8F9CD48D77D /* [CP] Check Pods Manifest.lock */,
+				F15A09C828C2DF4A0071EA2B /* Sources */,
+				F15A09C928C2DF4A0071EA2B /* Frameworks */,
+				F15A09CA28C2DF4A0071EA2B /* Resources */,
+				ED37AB9A049BE64743143FB1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = telaloguiFirebase;
+			productName = telaloguiFirebase;
+			productReference = F15A09CC28C2DF4A0071EA2B /* telaloguiFirebase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F15A09E128C2DF4B0071EA2B /* telaloguiFirebaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F15A09F928C2DF4B0071EA2B /* Build configuration list for PBXNativeTarget "telaloguiFirebaseTests" */;
+			buildPhases = (
+				F52BE2FF485D1E9055E4714F /* [CP] Check Pods Manifest.lock */,
+				F15A09DE28C2DF4B0071EA2B /* Sources */,
+				F15A09DF28C2DF4B0071EA2B /* Frameworks */,
+				F15A09E028C2DF4B0071EA2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F15A09E428C2DF4B0071EA2B /* PBXTargetDependency */,
+			);
+			name = telaloguiFirebaseTests;
+			productName = telaloguiFirebaseTests;
+			productReference = F15A09E228C2DF4B0071EA2B /* telaloguiFirebaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F15A09EB28C2DF4B0071EA2B /* telaloguiFirebaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F15A09FC28C2DF4B0071EA2B /* Build configuration list for PBXNativeTarget "telaloguiFirebaseUITests" */;
+			buildPhases = (
+				4F990660571746BA22BF8FDD /* [CP] Check Pods Manifest.lock */,
+				F15A09E828C2DF4B0071EA2B /* Sources */,
+				F15A09E928C2DF4B0071EA2B /* Frameworks */,
+				F15A09EA28C2DF4B0071EA2B /* Resources */,
+				7BBC9467E07889F34F29E71B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F15A09EE28C2DF4B0071EA2B /* PBXTargetDependency */,
+			);
+			name = telaloguiFirebaseUITests;
+			productName = telaloguiFirebaseUITests;
+			productReference = F15A09EC28C2DF4B0071EA2B /* telaloguiFirebaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F15A09C428C2DF4A0071EA2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					F15A09CB28C2DF4A0071EA2B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					F15A09E128C2DF4B0071EA2B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = F15A09CB28C2DF4A0071EA2B;
+					};
+					F15A09EB28C2DF4B0071EA2B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = F15A09CB28C2DF4A0071EA2B;
+					};
+				};
+			};
+			buildConfigurationList = F15A09C728C2DF4A0071EA2B /* Build configuration list for PBXProject "telaloguiFirebase" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F15A09C328C2DF4A0071EA2B;
+			productRefGroup = F15A09CD28C2DF4A0071EA2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F15A09CB28C2DF4A0071EA2B /* telaloguiFirebase */,
+				F15A09E128C2DF4B0071EA2B /* telaloguiFirebaseTests */,
+				F15A09EB28C2DF4B0071EA2B /* telaloguiFirebaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F15A09CA28C2DF4A0071EA2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15A09DC28C2DF4B0071EA2B /* LaunchScreen.storyboard in Resources */,
+				F15A09D928C2DF4B0071EA2B /* Assets.xcassets in Resources */,
+				F1923DD428C4339200106B8A /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15A09E028C2DF4B0071EA2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15A09EA28C2DF4B0071EA2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F990660571746BA22BF8FDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-telaloguiFirebase-telaloguiFirebaseUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63C0426ED43BE8F9CD48D77D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-telaloguiFirebase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BBC9467E07889F34F29E71B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-telaloguiFirebase-telaloguiFirebaseUITests/Pods-telaloguiFirebase-telaloguiFirebaseUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-telaloguiFirebase-telaloguiFirebaseUITests/Pods-telaloguiFirebase-telaloguiFirebaseUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-telaloguiFirebase-telaloguiFirebaseUITests/Pods-telaloguiFirebase-telaloguiFirebaseUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED37AB9A049BE64743143FB1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-telaloguiFirebase/Pods-telaloguiFirebase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-telaloguiFirebase/Pods-telaloguiFirebase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-telaloguiFirebase/Pods-telaloguiFirebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F52BE2FF485D1E9055E4714F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-telaloguiFirebaseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F15A09C828C2DF4A0071EA2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15A09D428C2DF4A0071EA2B /* ViewController.swift in Sources */,
+				F15A09D028C2DF4A0071EA2B /* AppDelegate.swift in Sources */,
+				F15A09D228C2DF4A0071EA2B /* SceneDelegate.swift in Sources */,
+				F1923DD628C4380400106B8A /* CadastroViewController.swift in Sources */,
+				F1AE555E28C6C68500E16952 /* Tela2ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15A09DE28C2DF4B0071EA2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15A09E728C2DF4B0071EA2B /* telaloguiFirebaseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15A09E828C2DF4B0071EA2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15A09F328C2DF4B0071EA2B /* telaloguiFirebaseUITestsLaunchTests.swift in Sources */,
+				F15A09F128C2DF4B0071EA2B /* telaloguiFirebaseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F15A09E428C2DF4B0071EA2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F15A09CB28C2DF4A0071EA2B /* telaloguiFirebase */;
+			targetProxy = F15A09E328C2DF4B0071EA2B /* PBXContainerItemProxy */;
+		};
+		F15A09EE28C2DF4B0071EA2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F15A09CB28C2DF4A0071EA2B /* telaloguiFirebase */;
+			targetProxy = F15A09ED28C2DF4B0071EA2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F15A09DA28C2DF4B0071EA2B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F15A09DB28C2DF4B0071EA2B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F15A09F428C2DF4B0071EA2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F15A09F528C2DF4B0071EA2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F15A09F728C2DF4B0071EA2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C01AF043C8249D1F456FE8F /* Pods-telaloguiFirebase.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = telaloguiFirebase/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = s.telaloguiFirebase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F15A09F828C2DF4B0071EA2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE93314F7C509C942A085CF5 /* Pods-telaloguiFirebase.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = telaloguiFirebase/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = s.telaloguiFirebase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F15A09FA28C2DF4B0071EA2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9EBFF92E99A28E70D127456 /* Pods-telaloguiFirebaseTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = s.telaloguiFirebaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/telaloguiFirebase.app/telaloguiFirebase";
+			};
+			name = Debug;
+		};
+		F15A09FB28C2DF4B0071EA2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F8234AE65DDDD2FF0B3E93E /* Pods-telaloguiFirebaseTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = s.telaloguiFirebaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/telaloguiFirebase.app/telaloguiFirebase";
+			};
+			name = Release;
+		};
+		F15A09FD28C2DF4B0071EA2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FBD2832009D396691DF1AA7 /* Pods-telaloguiFirebase-telaloguiFirebaseUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = s.telaloguiFirebaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = telaloguiFirebase;
+			};
+			name = Debug;
+		};
+		F15A09FE28C2DF4B0071EA2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DB7F4D12A432B5DABF12C85 /* Pods-telaloguiFirebase-telaloguiFirebaseUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = s.telaloguiFirebaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = telaloguiFirebase;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F15A09C728C2DF4A0071EA2B /* Build configuration list for PBXProject "telaloguiFirebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F15A09F428C2DF4B0071EA2B /* Debug */,
+				F15A09F528C2DF4B0071EA2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F15A09F628C2DF4B0071EA2B /* Build configuration list for PBXNativeTarget "telaloguiFirebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F15A09F728C2DF4B0071EA2B /* Debug */,
+				F15A09F828C2DF4B0071EA2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F15A09F928C2DF4B0071EA2B /* Build configuration list for PBXNativeTarget "telaloguiFirebaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F15A09FA28C2DF4B0071EA2B /* Debug */,
+				F15A09FB28C2DF4B0071EA2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F15A09FC28C2DF4B0071EA2B /* Build configuration list for PBXNativeTarget "telaloguiFirebaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F15A09FD28C2DF4B0071EA2B /* Debug */,
+				F15A09FE28C2DF4B0071EA2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F15A09C428C2DF4A0071EA2B /* Project object */;
+}

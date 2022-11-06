@@ -1,0 +1,6 @@
+framework module Pods_telaloguiFirebase {
+  umbrella header "Pods-telaloguiFirebase-umbrella.h"
+
+  export *
+  module * { export * }
+}
